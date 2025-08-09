@@ -1,0 +1,15 @@
+services:
+  trainer:
+    container_name: trainer
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - "./data:/data"
+      - "./models:/models"
+      - "./data:/program/data"  # Mount your code folder if you want to edit from outside
+      - "./jupyter_config:/root/.jupyter"
+    ports:
+      - "8888:8888"
+        
+         

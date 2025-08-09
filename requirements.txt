@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+imbalanced-learn
+Pillow
+#NumPy & Pandas → For numerical and tabular processing.
+#Scikit-learn → For your SVM model and evaluation metrics.
+#Matplotlib & Seaborn → For plotting graphs, confusion matrix, etc.
+#OpenCV (opencv-python) → To read and preprocess images.
